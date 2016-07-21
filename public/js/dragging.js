@@ -105,7 +105,7 @@ $(".viconbutton").css("display", "none");
 
 
                         $.ajax({
-                        url:'https://drawitws1.herokuapp.com/realResult',
+                        url:'https://drawitws.herokuapp.com/realResult',
                         method:"post",
                         success: function(data){
                             console.log('success1');
@@ -303,7 +303,7 @@ $(".viconbutton").css("display", "none");
 
 
                                                                                                 $.ajax({
-                                                                                                url:'https://drawitws1.herokuapp.com/usersAnswers',
+                                                                                                url:'https://drawitws.herokuapp.com/usersAnswers',
                                                                                                 method:"post",
                                                                                                 success: function(data){
                                                                                                     console.log('success1');
@@ -868,7 +868,7 @@ $(".viconbutton").css("display", "none");
                         // $("theRealDivide.").css("display", "block");
 
                          $.ajax({
-                              url:'https://drawitws1.herokuapp.com/answer1',
+                              url:'https://drawitws.herokuapp.com/answer1',
                               method:"post",
                               data: data,
                               success: function(data){
